@@ -1,0 +1,67 @@
+.ship-card {
+    display: flex;
+    justify-content: center;
+    flex-grow: 10%;
+    flex-basis: 10%;
+    padding: .6rem;
+    margin: 1.25rem;
+    width: 13.12rem;
+    height: 19.37rem;
+    border-radius: 1.5rem;
+    border: 0.05rem solid #fed313;
+    border-width: .6 .63rem;
+    background: rgb(17, 45, 121);
+    background: radial-gradient(circle, rgba(17, 45, 121, 1) 0%, rgba(29, 1, 50, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    border-color: #fed313;
+    box-shadow: 0 0 .1rem #fed313,
+        0 0 .05rem #fed313,
+        0 0 .05rem #fed313,
+        0 0 0.05rem #fed313,
+        0 0 1.05rem #fed313,
+        inset 0 0 .5rem #fed313;
+    backdrop-filter: blur(20px);
+}
+
+.ship-card:hover {
+    border-color: #ffffff;
+    box-shadow: 0 0 .1rem #fff,
+        0 0 .1rem #fff,
+        0 0 .1rem #ffffff,
+        0 0 0.15rem #ffffff,
+        0 0 1.8rem #ffffff,
+        inset 0 0 .8rem #ffffff;
+}
+
+
+.ship-card-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.ship-name {
+    font-size: 1rem;
+    text-align: center;
+    min-height: 1.87rem;
+    color: #d6d6d6;
+}
+
+.ship-model {
+    text-align: center;
+    min-height: 2.5rem;
+    color: #d6d6d6;
+}
+
+.ship-rating {
+    margin-top: .6rem;
+    color: #d6d6d6;
+}
+
+.ship-image {
+    border-radius: 1.5rem;
+    width: 12.5rem;
+    height:12.5rem ;
+
+}

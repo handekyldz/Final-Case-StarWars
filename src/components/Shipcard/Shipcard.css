@@ -7,7 +7,7 @@
     margin: 1.25rem;
     width: 13.12rem;
     height: 19.37rem;
-    border-radius: 1.5rem;
+    border-radius: 0 1.5rem 0 1.5rem;
     border: 0.05rem solid #fed313;
     border-width: .6 .63rem;
     background: rgb(17, 45, 121);

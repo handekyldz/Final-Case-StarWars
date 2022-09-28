@@ -107,6 +107,11 @@ ul {
   margin: 3rem;
 }
 
+.Home {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
 @media only screen and (max-width: 600px)  {
   .header-logo {
@@ -114,3 +119,4 @@ ul {
     width: 8rem;
   }
 }
+

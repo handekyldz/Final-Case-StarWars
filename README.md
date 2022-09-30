@@ -34,7 +34,7 @@ In the project, all datas is taken from [Star Wars API (SWAPI)](https://swapi.de
         - This component is listing all starships from API.
 
   
-## Ekran Görüntüleri
+## Screenshots
 
 ![Uygulama Ekran Görüntüsü](src/assets/screenshots/1.png)
 

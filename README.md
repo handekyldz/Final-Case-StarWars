@@ -36,7 +36,7 @@ In the project, all datas is taken from [Star Wars API (SWAPI)](https://swapi.de
   
 ## Ekran Görüntüleri
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/handekyldz/Final-Case-StarWars/main/src/assets/screenshots/1.png?token=GHSAT0AAAAAABXPK6CD4262RBK3SEYVE4YOYZXHQVA)
+![Uygulama Ekran Görüntüsü](src/assets/screenshots/1.png)
 
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/handekyldz/Final-Case-StarWars/main/src/assets/screenshots/3.JPG?token=GHSAT0AAAAAABXPK6CDJCP7BC42INRJ7KIOYZXHMLQ)
+![Uygulama Ekran Görüntüsü](src/assets/screenshots/3.png)
   

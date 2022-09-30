@@ -2,10 +2,11 @@ import {useState, useEffect} from 'react';
 import axios from 'axios';
 import { Link, useParams } from 'react-router-dom';
 import { ReactComponent as ArrowLeft } from '../../assets/arrow-left-solid.svg';
-import "./Shipdetail.css"
+import { TailSpin } from 'react-loader-spinner';
+import "./Shipdetail.css";
 
-// Users can click on any item and go to a detail page that includes passengers,
-// max_atmosphering_speed, manufacturer, crew and cargo_capacity in addition to name and model
+// This component is showing every detail of selected ship.
+// Stylesheet of this component is in Shipdetail.css file.
 
 function ShipDetail() {
     const [ship, setShip] = useState({})
@@ -15,9 +16,10 @@ function ShipDetail() {
 
     useEffect(() => {
         getData()
-        
     }, []);
 
+    // I took data of selected ship in API with ship id.
+    // This is async function and returns a Promise so we have to wait response from API.
     async function getData(){
         const data = await axios(`https://swapi.dev/api/starships/${id}`);   
         setShip(data.data)  
@@ -31,7 +33,17 @@ function ShipDetail() {
         
 
         
-        {isLoading && <div>Loading...</div>}
+        {isLoading && <TailSpin 
+                    className="tail-spin"
+                    height="40"
+                    width="40"
+                    color="#4fa94d"
+                    ariaLabel="tail-spin-loading"
+                    radius="1"
+                    wrapperStyle={{}}
+                    wrapperClass=""
+                    visible={true}
+                    />}
 
         {!isLoading && 
         <div className='shipdtl-container'>
@@ -44,6 +56,7 @@ function ShipDetail() {
                                Model : {ship.model}
                     </div>
                 </div>
+                {/* I took image of ship from my assets. */}
                 <img
                 className='shipdtl-image'
                 src={require(`../../assets/starships/${id}.jpg`)}

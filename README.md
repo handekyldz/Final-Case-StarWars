@@ -38,5 +38,5 @@ In the project, all datas is taken from [Star Wars API (SWAPI)](https://swapi.de
 
 ![Uygulama Ekran Görüntüsü](src/assets/screenshots/1.png)
 
-![Uygulama Ekran Görüntüsü](src/assets/screenshots/3.png)
+![Uygulama Ekran Görüntüsü](src/assets/screenshots/3.JPG)
   
